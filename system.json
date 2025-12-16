@@ -2,7 +2,7 @@
   "id": "runerpg",
   "title": "Rune RPG",
   "description": "Rune RPG system.",
-  "version": "0.1.2",
+  "version": "0.1.2b",
   "compatibility": {
     "minimum": 12,
     "verified": 12
