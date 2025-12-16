@@ -1,3 +1,3 @@
 Hooks.once("init", () => {
-  console.log("Rune RPG | System initialized");
+  console.warn("RUNERPG INIT CONFIRMED");
 });
