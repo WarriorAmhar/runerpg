@@ -10,6 +10,7 @@
   "authors": [
     { "name": "Ruy Leon" }
   ],
+  "esmodules": ["runerpg.mjs"],
   "manifest": "https://raw.githubusercontent.com/WarriorAmhar/runerpg/main/system.json",
   "download": "https://github.com/WarriorAmhar/runerpg/archive/refs/heads/main.zip"
 }
