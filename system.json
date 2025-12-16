@@ -2,24 +2,21 @@
   "id": "runerpg",
   "title": "Rune RPG",
   "description": "Rune RPG system for Foundry VTT.",
-  "version": "0.1.3b",
+  "version": "0.1.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": 11,
+    "verified": 11
   },
-
   "authors": [
     {
       "name": "WarriorAmhar"
     }
   ],
-
   "actors": {
     "character": {
       "label": "Character"
     }
   },
-
   "esmodules": [
     "runerpg.mjs"
   ]
