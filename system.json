@@ -12,6 +12,11 @@
   ],
   "esmodules": ["runerpg.mjs"],
   "styles": ["styles/system-styles.css"],
+  "documentTypes": {
+    "Actor": {
+      "character": {}
+    }
+  },
   "manifest": "https://raw.githubusercontent.com/WarriorAmhar/runerpg/main/system.json",
   "download": "https://github.com/WarriorAmhar/runerpg/archive/refs/heads/main.zip"
 }
