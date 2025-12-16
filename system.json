@@ -11,6 +11,7 @@
     { "name": "Ruy Leon" }
   ],
   "esmodules": ["runerpg.mjs"],
+  "styles": ["styles/system-styles.css"],
   "manifest": "https://raw.githubusercontent.com/WarriorAmhar/runerpg/main/system.json",
   "download": "https://github.com/WarriorAmhar/runerpg/archive/refs/heads/main.zip"
 }
