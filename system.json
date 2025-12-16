@@ -1,24 +1,26 @@
 {
   "id": "runerpg",
   "title": "Rune RPG",
-  "description": "Rune RPG system.",
-  "version": "0.1.2c",
+  "description": "Rune RPG system for Foundry VTT.",
+  "version": "0.1.3b",
   "compatibility": {
-    "minimum": 12,
-    "verified": 12
+    "minimum": "11",
+    "verified": "11"
   },
+
   "authors": [
-    { "name": "Ruy Leon" }
+    {
+      "name": "WarriorAmhar"
+    }
   ],
-  "esmodules": ["runerpg.mjs"],
-  "styles": ["styles/system-styles.css"],
-  "documentTypes": {
-    "Actor": {
-         "character": {
+
+  "actors": {
+    "character": {
       "label": "Character"
     }
-   },
-  "manifest": "https://raw.githubusercontent.com/WarriorAmhar/runerpg/main/system.json",
-  "download": "https://github.com/WarriorAmhar/runerpg/archive/refs/heads/main.zip"
-}
+  },
+
+  "esmodules": [
+    "runerpg.mjs"
+  ]
 }
