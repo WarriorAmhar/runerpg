@@ -1,3 +1,8 @@
 Hooks.once("init", () => {
-  console.warn("RUNERPG INIT CONFIRMED");
+  console.log("Rune RPG system initializing");
+
+  // Register actor types explicitly
+  CONFIG.Actor.typeLabels = {
+    character: "Character"
+  };
 });
